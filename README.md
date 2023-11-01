@@ -16,7 +16,9 @@ This package allows users to mark specific code cells in a Jupyter Notebook for 
 
 ## Configuration
 
-Before using the package, you need to set up some configurations in `config.py`. Template can be seen below.
+- Before using the package, you need to set up some configurations in `config.py`. Template can be seen below.
+- `docker_utils.py` is used to set docker file and container environment variables
+- `remote_utils.py` is used to set docker container volume and host save location
 
 ## Usage
 
@@ -63,6 +65,8 @@ Here's a detailed structure for the `config.json` file:
 
 ```json
 {
+    "BASE_IMAGE": "Name of the base docker image you want to use",
+    "PACKAGES_NEEDED": "Packages needed to execute code snippet",
     "DOCKER_IMAGE_NAME": "Name of the Docker image that will be created.",
     "DOCKER_REGISTRY": "Docker registry where the image will be pushed.",
     "REMOTE_SERVER": "SSH-compatible address of your remote server (e.g., `user@remote_server_ip`).",
@@ -73,4 +77,4 @@ Here's a detailed structure for the `config.json` file:
 }
 ```
 
-If the `config.json` file is missing or some settings are not provided, the package will use default values provided within the package.
+
