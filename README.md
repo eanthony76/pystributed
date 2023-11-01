@@ -1,5 +1,5 @@
 
-# My Package: Remote Execution Utility
+# pystributed: Remote Execution Utility
 
 This package allows users to mark specific code cells in a Jupyter Notebook for remote execution. Once marked, the code will be packaged into a Docker container, sent to a specified remote server for execution, and the results will be fetched back to the local machine.
 
