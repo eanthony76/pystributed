@@ -1,0 +1,9 @@
+{
+    "DOCKER_IMAGE_NAME": "Name of the Docker image that will be created.",
+    "DOCKER_REGISTRY": "Docker registry where the image will be pushed.",
+    "REMOTE_SERVER": "SSH-compatible address of your remote server (e.g., `user@remote_server_ip`).",
+    "REMOTE_WORKDIR": "Working directory on the remote server where results will be stored.",
+    "USER_CODE_PATH": "Temporary path on the local machine where the user's code will be saved before packaging.",
+    "SSH_PRIVATE_KEY_PATH": "Location of .pem file to access remote instance",
+    "GPU": "Set to 'True' if you are using a remote instance that requires your docker container to access the GPU on the instance"
+}

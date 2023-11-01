@@ -6,7 +6,7 @@ def build_image():
     # Dynamically generate Dockerfile
     with open("./Dockerfile", 'w') as f:
         f.write(f'''
-FROM pytorch/pytorch:latest  # Adjust this as needed
+FROM pytorch/pytorch:latest
 
 WORKDIR /app
 
