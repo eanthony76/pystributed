@@ -7,6 +7,7 @@ This package allows users to mark specific code cells in a Jupyter Notebook for 
 
 1. Extract the contents of this directory to a location on your machine.
 2. Navigate to the directory and run `pip install .` to install the package.
+3. This package can also be installed using `pip install pystributed`.
 
 ## Prerequisites
 
