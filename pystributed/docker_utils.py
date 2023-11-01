@@ -6,7 +6,7 @@ def build_image():
     # Dynamically generate Dockerfile
     with open("./Dockerfile", 'w') as f:
         f.write(f'''
-FROM continuumio/miniconda3:latest
+FROM {CONFIG['BASE_IMAGE_NAME']}
 
 WORKDIR /app
 
