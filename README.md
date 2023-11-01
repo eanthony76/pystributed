@@ -29,7 +29,7 @@ Before using the package, you need to set up some configurations in `config.py`:
 1. In your Jupyter Notebook, import the package:
 
 ```python
-import my_package.main as runner
+import pystributed.main as runner
 ```
 
 2. Use the `%%save_for_remote` magic command to mark the code cell you want to run remotely:

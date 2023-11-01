@@ -1,7 +1,0 @@
-MANIFEST.in
-README.md
-setup.py
-my_remote_executor.egg-info/PKG-INFO
-my_remote_executor.egg-info/SOURCES.txt
-my_remote_executor.egg-info/dependency_links.txt
-my_remote_executor.egg-info/top_level.txt
