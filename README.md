@@ -5,7 +5,7 @@ This package allows users to mark specific code cells in a Jupyter Notebook for 
 
 ## Installation
 
-1. Extract the contents of `my_package_updated.zip` to a location on your machine.
+1. Extract the contents of this repo to a location on your machine.
 2. Navigate to the directory and run `pip install .` to install the package.
 
 ## Prerequisites
