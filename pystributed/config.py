@@ -2,11 +2,9 @@
 import json
 import os
 
-# Default configuration values
 DEFAULT_CONFIG = {
     "setting1": "default_value1",
     "setting2": "default_value2",
-    # ... add other default settings as needed
 }
 
 # Path to the external config.json file
@@ -17,7 +15,6 @@ def load_config():
     if os.path.exists(CONFIG_PATH):
         with open(CONFIG_PATH, 'r') as file:
             user_config = json.load(file)
-        # Merge user config with defaults (user settings take precedence)
         return {**DEFAULT_CONFIG, **user_config}
     return DEFAULT_CONFIG
 
